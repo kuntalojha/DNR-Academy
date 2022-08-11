@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>DNR-Academy</title>
   </head>
@@ -12,22 +15,33 @@
   <body>
     <!-- --------------------------------------Header Section----------------------------------------- -->
     <section class="header">
-      <header>
-        <img src="" alt="">
-        <nav>
-          <a href="#">HOME</a>
-          <a href="#">OUR STUDENT</a>
-          <a href="#">OUR LOCATION</a>
-          <a href="#">GALLERY</a>
-          <a href="#">ABOUT</a>
-        </nav>
-      </header>
+      <nav class="navbar navbar-expand-lg bg-light">
+
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.jpg" alt="" width="40" height="40" class="d-inline-block align-text-top">
+            DNR Academy
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#home">HOME</a>
+              <a class="nav-link" href="#student">OUR STUDENT</a>
+              <a class="nav-link" href="#location">OUR LOCATION</a>
+              <a class="nav-link" href="#">GALLERY</a>
+              <a class="nav-link" href="#">ABOUT</a>
+            </div>
+          </div>
+        </div>
+      </nav>
     </section>
 
 
-    <!-- --------------------------------------New Section----------------------------------------- -->
+    <!-- --------------------------------------HOME Section----------------------------------------- -->
 
-    <section>
+    <section id="home">
 
       <div class="">
 
@@ -37,9 +51,45 @@
       </div>
     </section>
 
-    <!-- --------------------------------------New Section----------------------------------------- -->
+    <!-- --------------------------------------STUDENT Section----------------------------------------- -->
 
-    <section>
+    <section id="student">
+      <div class="">
+
+      </div>
+      <div class="">
+
+      </div>
+
+    </section>
+
+    <!-- --------------------------------------LOCATION Section----------------------------------------- -->
+
+    <section id="location">
+      <div class="">
+
+      </div>
+      <div class="">
+
+      </div>
+
+    </section>
+
+    <!-- --------------------------------------GALLERY Section----------------------------------------- -->
+
+    <section id="gallery">
+      <div class="">
+
+      </div>
+      <div class="">
+
+      </div>
+
+    </section>
+
+    <!-- --------------------------------------ABOUT Section----------------------------------------- -->
+
+    <section id="about">
       <div class="">
 
       </div>
@@ -50,6 +100,7 @@
     </section>
 
     <!-- --------------------------------------Footer Section----------------------------------------- -->
+
     <section class="footer">
       <footer>
         <div class="">
@@ -62,6 +113,8 @@
     </section>
 
     <!-- --------------------------------------Add JavaScript----------------------------------------- -->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script>
 
     </script>

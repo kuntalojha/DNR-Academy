@@ -4,6 +4,33 @@
   font-family: sans-serif;
   /* background-color: black; */
 }
+a {
+  font-weight: bold !important;
+  color: black;
+  /* background-color: red; */
+}
+a:hover {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+}
+li{
+  margin-left: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+iframe {
+  height: 500px;
+  width: 100%;
+}
 .HOME{
   background-color: #E3E4FA;
 }

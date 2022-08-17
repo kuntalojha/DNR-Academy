@@ -19,7 +19,7 @@
 
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="images/logo.jpg" alt="" width="40" height="40" class="d-inline-block align-text-top">
+            <!-- <img src="images/logo.jpg" alt="" width="40" height="40" class="d-inline-block align-text-top"> -->
             DNR Academy
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +31,7 @@
               <a class="nav-link" href="#student">OUR STUDENT</a>
               <a class="nav-link" href="#location">OUR LOCATION</a>
               <a class="nav-link" href="#">GALLERY</a>
-              <a class="nav-link" href="#">ABOUT</a>
+              <a class="nav-link" href="#about">ABOUT</a>
             </div>
           </div>
         </div>
@@ -86,6 +86,32 @@
     <!-- --------------------------------------GALLERY Section----------------------------------------- -->
 
     <section id="gallery">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/img1.jfif" class="d-block w-100" alt="..." height="600px" width="100%">
+          </div>
+          <div class="carousel-item images">
+            <img src="images/img2.jfif" class="d-block w-100" alt="..." height="600px" width="100%">
+          </div>
+          <div class="carousel-item">
+            <img src="images/img3.jpg" class="d-block w-100" alt="..." height="600px" width="100%">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
       <div class="GALLERY">
         <p>gallery</p>
       </div>
@@ -95,29 +121,26 @@
 
     </section>
 
-    <!-- --------------------------------------ABOUT Section----------------------------------------- -->
-
-    <section id="about">
-      <div class="ABOUT">
-        <p>about</p>
-      </div>
-      <div class="">
-
-      </div>
-
-    </section>
-
     <!-- --------------------------------------Footer Section----------------------------------------- -->
 
-    <section class="footer">
-      <footer>
-        <div class="">
 
-        </div>
-        <div class="">
+    <section class="footer" id="about">
 
+      <div class="box-container">
+        <div class="box">
+          <h3>about</h3>
+          <p>This is a website where students can learn web development, app development & different programming languages through tutorials videos.</p>
         </div>
-      </footer>
+
+        <div class="box">
+          <h3>contact us</h3>
+          <p><i class="fas fa-phone"></i> 912-398-0271 | 983-086-1739 </p>
+          <p><i class="fas fa-envelope"></i>@gmail.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> Maddha Durganagar Station Road, Durganagar, Bediapara, North Dumdum, Kolkata, West Bengal 700065</p>
+        </div>
+
+      </div>
+
     </section>
 
     <!-- --------------------------------------Add JavaScript----------------------------------------- -->

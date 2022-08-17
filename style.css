@@ -31,6 +31,12 @@ iframe {
   height: 500px;
   width: 100%;
 }
+
+section{
+  height: 720px;
+  width: auto;
+  background-color: #9AFEFF;
+}
 .HOME{
   background-color: #E3E4FA;
 }
